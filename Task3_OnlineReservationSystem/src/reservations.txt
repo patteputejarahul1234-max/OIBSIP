@@ -1,0 +1,3 @@
+1002,Vishnu,14563,Express ,Hyderabad,Vizag,AC,1300.0
+1003,Tej,12435,Express ,Thullur,Chennai,AC,1500.0
+1004,Goush,1004,Express Train,Vizag,Mumbai,AC,2000.0
