@@ -1,17 +1,20 @@
 # Number Guessing Game
 
-This project is a console-based Number Guessing Game developed using Java to improve problem-solving and programming skills. The player has to guess a randomly generated number within limited attempts based on the selected difficulty level.
+## Description
+
+This project is a console-based Number Guessing Game developed using Java as part of the Oasis Infobyte Java Development Internship.
+
+The player has to guess a randomly generated number within a limited number of attempts. The game includes different difficulty levels, score calculation, hints, and replay functionality.
 
 ## Features
 
 - Random number generation
 - Easy, Medium, and Hard difficulty levels
 - Limited attempts for each level
-- Score calculation system
+- Score calculation based on attempts
 - Hint system
 - Play again option
-- Input validation
-- Round counter
+- Simple console interface
 
 ## Technologies Used
 
@@ -21,27 +24,37 @@ This project is a console-based Number Guessing Game developed using Java to imp
 ## Difficulty Levels
 
 | Difficulty | Number Range | Attempts |
-|------------|--------------|-----------|
-| Easy       | 1 - 50       | 10        |
-| Medium     | 1 - 100      | 7         |
-| Hard       | 1 - 200      | 5         |
+|------------|--------------|----------|
+| Easy | 1 - 50 | 10 |
+| Medium | 1 - 100 | 7 |
+| Hard | 1 - 200 | 5 |
 
 ## Project Structure
 
-Task1_NumberGuessingGame/
-│
-├── src/
+Task1_NumberGuessingGame
+
+├── screenshots
+
+├── src
+
 │   └── Main.java
-│
-├── screenshots/
-│
+
 └── README.md
 
-## How to Run the Program
+## How to Run
 
 1. Open the project in VS Code
-2. Open terminal
-3. Navigate to the src folder:
 
-```bash
-cd src
+2. Open terminal
+
+3. Compile the program:
+
+javac Main.java
+
+4. Run the program:
+
+java Main
+
+## Author
+
+PATTEPU TEJA RAHUL
