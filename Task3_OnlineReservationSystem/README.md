@@ -2,64 +2,73 @@
 
 ## Description
 
-This is a console-based Online Reservation System developed using Java.  
-The project allows users to manage train reservations through a menu-driven interface.
+This project is a console-based Online Reservation System developed using Java.
 
-Users can:
-- Add reservations
-- Display all reservations
-- Search reservation details using PNR number
-- Update reservation details
-- Cancel reservations
-
-The application also stores reservation data permanently using file handling, so the data remains saved even after closing the program.
-
----
+The system allows users to reserve train tickets, view reservation details, search reservations using PNR numbers, and cancel reservations. Reservation records are stored permanently using file handling.
 
 ## Features
 
-- Add Reservation
-- Display All Reservations
+- User Login Authentication
+- Ticket Reservation
+- Auto Generated PNR Number
 - Search Reservation by PNR Number
-- Update Reservation Details
 - Cancel Reservation
-- Automatic PNR Generation
+- Display All Reservations
 - File Handling using reservations.txt
-- Menu-Driven Console Interface
-- Data Persistence
 - Input Validation
-
----
+- Menu-Driven Console Interface
 
 ## Technologies Used
 
 - Java
-- OOP Concepts
+- Object-Oriented Programming (OOP)
 - ArrayList
 - File Handling
 - VS Code
 
----
-
 ## Project Structure
 
 Task3_OnlineReservationSystem
-│
-├── screenshots
-│
-├── src
-│   ├── Main.java
-│   ├── Reservation.java
-│   ├── ReservationSystem.java
-│   └── reservations.txt
-│
-└── README.md
 
----
+├── screenshots
+
+├── src
+
+│   ├── Main.java
+
+│   ├── Reservation.java
+
+│   ├── ReservationSystem.java
+
+│   └── reservations.txt
+
+└── README.md
 
 ## How to Run
 
-Open terminal inside src folder and run:
+1. Open terminal inside src folder
+
+2. Compile the files:
 
 ```bash
 javac *.java
+```
+
+3. Run the program:
+
+```bash
+java Main
+```
+
+## Sample Functionalities
+
+- Login Authentication
+- Reserve Train Ticket
+- Search Reservation using PNR
+- Cancel Reservation
+- View All Reservations
+- Store Reservation Records using File Handling
+
+## Author
+
+PATTEPU TEJA RAHUL
