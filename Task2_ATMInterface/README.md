@@ -1,43 +1,67 @@
 # ATM Interface
 
-This project is a console-based ATM Interface application developed using Java and Object-Oriented Programming concepts. The application simulates basic ATM operations such as balance checking, money deposit, withdrawal, and transaction history management.
+## Description
+
+This project is a console-based ATM Interface developed using Java and Object-Oriented Programming concepts.
+
+The application allows users to perform banking operations such as checking account balance, depositing money, withdrawing money, and viewing transaction details through a simple menu-driven interface.
 
 ## Features
 
-- Secure PIN authentication system
-- Limited login attempts
-- Check account balance
-- Deposit money
-- Withdraw money
-- Transaction history tracking
-- Input validation
-- Menu-driven console interface
-- Transaction success messages
+- Check Account Balance
+- Deposit Money
+- Withdraw Money
+- Input Validation
+- Menu-Driven Console Interface
+- Object-Oriented Programming Implementation
+- Secure Transaction Processing
 
 ## Technologies Used
 
 - Java
-- VS Code
 - Object-Oriented Programming (OOP)
+- VS Code
 
 ## Project Structure
 
-Task2_ATMInterface/
-│
-├── src/
+Task2_ATMInterface
+
+├── screenshots
+
+├── src
+
 │   ├── Main.java
+
 │   ├── ATM.java
+
 │   └── BankAccount.java
-│
-├── screenshots/
-│
+
 └── README.md
 
-## How to Run the Program
+## How to Run
 
-1. Open the project in VS Code
-2. Open terminal inside the src folder
-3. Compile all Java files:
+1. Open terminal inside src folder
+
+2. Compile the files:
 
 ```bash
 javac *.java
+```
+
+3. Run the program:
+
+```bash
+java Main
+```
+
+## Sample Functionalities
+
+- Check Balance
+- Deposit Money
+- Withdraw Money
+- Menu-Based Navigation
+- Banking Transaction Processing
+
+## Author
+
+PATTEPU TEJA RAHUL
