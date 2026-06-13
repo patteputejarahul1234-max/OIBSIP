@@ -2,18 +2,20 @@
 
 ## Description
 
-This project is a console-based Online Reservation System developed using Java.
+This is a console-based Java application developed to manage train reservations efficiently.
 
-The system allows users to reserve train tickets, view reservation details, search reservations using PNR numbers, and cancel reservations. Reservation records are stored permanently using file handling.
+The project allows users to reserve train tickets, search reservation details using PNR numbers, cancel reservations, and display reservation records through a menu-driven interface.
+
+The application also stores reservation data permanently using file handling, so the records are saved even after closing the program.
 
 ## Features
 
-- User Login Authentication
-- Ticket Reservation
-- Auto Generated PNR Number
+- Login Authentication
+- Reserve Train Tickets
 - Search Reservation by PNR Number
 - Cancel Reservation
 - Display All Reservations
+- Auto Generated PNR Number
 - File Handling using reservations.txt
 - Input Validation
 - Menu-Driven Console Interface
@@ -21,7 +23,7 @@ The system allows users to reserve train tickets, view reservation details, sear
 ## Technologies Used
 
 - Java
-- Object-Oriented Programming (OOP)
+- OOP Concepts
 - ArrayList
 - File Handling
 - VS Code
@@ -29,32 +31,23 @@ The system allows users to reserve train tickets, view reservation details, sear
 ## Project Structure
 
 Task3_OnlineReservationSystem
-
+│
 ├── screenshots
-
 ├── src
-
 │   ├── Main.java
-
 │   ├── Reservation.java
-
 │   ├── ReservationSystem.java
-
 │   └── reservations.txt
-
+│
 └── README.md
 
 ## How to Run
 
-1. Open terminal inside src folder
-
-2. Compile the files:
+Open terminal inside src folder and run:
 
 ```bash
 javac *.java
 ```
-
-3. Run the program:
 
 ```bash
 java Main
@@ -62,12 +55,10 @@ java Main
 
 ## Sample Functionalities
 
-- Login Authentication
-- Reserve Train Ticket
-- Search Reservation using PNR
-- Cancel Reservation
-- View All Reservations
-- Store Reservation Records using File Handling
+- Reserve new train tickets
+- Search reservations using PNR Number
+- Cancel reservation records
+- Store reservation data permanently using file handling
 
 ## Author
 
